@@ -33,3 +33,22 @@ html, body {
   touch-action: none; /* タッチスクロール防止 */
   cursor: default;
 }
+
+.github-link {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  z-index: 100;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.github-link:hover {
+  color: #f8fafc;
+  transform: scale(1.12);
+}
+
